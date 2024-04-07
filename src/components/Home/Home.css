@@ -1,0 +1,27 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 5px solid black ;
+    border-radius: 1%;
+
+}
+
+.circle-container {
+    display: flex;
+}
+
+.circle {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: #ff6347;
+    margin: 0 20px;
+    position: relative;
+    transition: transform 0.3s ease-in-out; /* Use transition for smooth hover effect */
+}
+
+.circle:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,54 @@
+.navbar{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+}
+
+.nav-links ,.nav-links-socials{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li, .nav-links-socials li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links li a:hover{
+    color: white;
+}
+.social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 20%; /* Set border radius for the icons */
+    border: 2px solid black; /* Border around each icon */
+    display: flex; /* Ensure icon is centered */
+    justify-content: center; /* Center icon horizontally */
+    align-items: center; /* Center icon vertically */
+    transition: transform 0.3s ease-in-out;
+}
+.social-icon:hover {
+    transform: scale(1.2);
+}
+.nav-links li li a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color */
+}
+.nav-links-socials li li a{
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color */
+}
+
+
+.nav-links-socials li {
+
+    margin-right: 10px;
+    max-width: 40px; /* Set maximum width for list items */
+}
+
